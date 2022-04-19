@@ -1,0 +1,139 @@
+.otp {
+    background: rgb(255, 255, 255, 0.99);
+    padding: 40px 60px 20px;
+    border-radius: 10px;
+    height: 50vh;
+    width: 100vh;
+    -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    /*text-align: center;*/
+    font-family: "Tw Cen MT Condensed";
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: dimgray;
+}
+
+h2 {
+    font-size: 1.7rem;
+    text-align: left;
+    font-family: "Tw Cen MT Condensed";
+    font-weight: 600;
+    color: dimgray;
+    margin-bottom: 6rem;
+}
+
+.name {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-family: "Tw Cen MT Condensed";
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #ed1f6d;
+}
+
+
+.email{
+    font-size: 1.8rem;
+    font-family: "Tw Cen MT Condensed";
+    margin-bottom: 20px;
+    font-weight: 900;
+    color: #5b5b5b;
+}
+
+label {
+    font-size: 1.4rem;
+    color: dimgray;
+    font-family: "Tw Cen MT Condensed";
+    font-weight: 800;
+    margin-right: 1.2rem;
+}
+
+input {
+    width: 5rem;
+    display: inline-block;
+    font-size: .9rem;
+    font-weight: bold;
+    padding: 12px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-right: 2rem;
+}
+
+input:focus {
+    border-left: 4px solid #ed1f6d;
+    border-right: 4px solid #ed1f6d;
+    border-top: 0;
+    border-bottom: 0;
+    outline: 0;
+    transition: all 0.5s;
+    background-color: #f8f4f6;
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 2rem rgba(237, 31, 109, .2);
+}
+
+button {
+    width: 70%;
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: bold;
+    height: 3.5rem;
+    padding: .5rem;
+    border: none;
+    background-image: linear-gradient(
+            rgba(237, 31, 109, 1),
+            rgba(103, 80, 146, 1)
+    );
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-top: 1rem;
+}
+
+.resend {
+    width: 10rem;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 2.7rem;
+    padding: .8rem;
+    border: none;
+    background-image: linear-gradient(
+            rgb(175, 162, 166),
+            rgba(103, 80, 146, 1)
+    );
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-top: 1rem;
+}
+
+.btn:hover , .resend:hover{
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+    -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+    transition: all .3s;
+    outline: 0;
+}
+
+/*.btn:hover::after {*/
+/*    -webkit-transform: scaleY(1.6) scaleX(1.4);*/
+/*    transform: scaleY(1.6) scaleX(1.4);*/
+/*    opacity: 0;*/
+/*}*/
+
+.btn:active, .resend:active {
+    -webkit-transform: translateY(-1px);
+    transform: translateY(-1px);
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+}
+

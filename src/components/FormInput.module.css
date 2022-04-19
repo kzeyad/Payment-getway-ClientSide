@@ -1,0 +1,40 @@
+.formInput{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+input {
+    font-size: .9rem;
+    font-weight: bold;
+    padding: 12px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+input:focus {
+    border-left: 4px solid #ed1f6d;
+    border-right: 4px solid #ed1f6d;
+    border-top: 0;
+    border-bottom: 0;
+    outline: 0;
+    transition: all 0.5s;
+    background-color: #f8f4f6;
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 2rem rgba(237, 31, 109, .2);
+}
+
+label {
+    margin-top: 15px;
+    font-size: 20px;
+    color: dimgray;
+    font-family: "Tw Cen MT Condensed";
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    /*display: none;*/
+}

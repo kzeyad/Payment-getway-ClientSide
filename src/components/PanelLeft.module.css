@@ -1,0 +1,14 @@
+.panel {
+    display: flex;
+    width: 10vh;
+    height: 100vh;
+    padding: 0;
+    margin-left: 50rem;
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(237, 31, 109, 1)), to(rgba(103, 80, 146, 1)));
+    background-image: linear-gradient(to right bottom, rgba(237, 31, 109, 1), rgba(103, 80, 146, 1));
+    position: absolute;
+    background-size: cover;
+    background-position: top;
+    /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);*/
+    /*clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);*/
+}

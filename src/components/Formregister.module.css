@@ -1,0 +1,123 @@
+
+.form {
+    background: rgb(255, 255, 255, 0.99);
+    padding: 40px 60px 20px;
+    border-radius: 10px;
+    position: absolute;
+    height: 79vh;
+    margin-left: 50rem;
+    -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-image: linear-gradient(
+            rgba(237, 31, 109, 1),
+            rgba(103, 80, 146, 1)
+    );
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-top: 1rem;
+}
+
+.btn:hover{
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+    -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+    transition: all .3s;
+    outline: 0;
+}
+
+/*.btn:hover::after {*/
+/*    -webkit-transform: scaleY(1.6) scaleX(1.4);*/
+/*    transform: scaleY(1.6) scaleX(1.4);*/
+/*    opacity: 0;*/
+/*}*/
+
+.btn:active {
+    -webkit-transform: translateY(-1px);
+    transform: translateY(-1px);
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "Tw Cen MT Condensed";
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: dimgray;
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-family: "Tw Cen MT Condensed";
+    margin-top: 2.5rem;
+    font-weight: 600;
+    color: dimgray;
+}
+
+.hashCash {
+    font-style: italic;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    font-weight: 1000;
+    display: inline-block;
+    background-image: -webkit-gradient(linear, left top, right top, from(#675092), to(#ed1f6d));
+    background-image: linear-gradient(to right, #675092, #ed1f6d);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: .2rem;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    margin-left: 10px;
+    text-shadow: 0.5rem 1rem 2rem #675092;
+    cursor: pointer;
+}
+
+.login {
+    font-style: italic;
+    font-size: 1.3rem;
+    /*text-transform: uppercase;*/
+    font-weight: 1000;
+    display: inline-block;
+    background-image: -webkit-gradient(linear, left top, right top, from(#675092), to(#ed1f6d));
+    background-image: linear-gradient(to right, #675092, #ed1f6d);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: .2rem;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    margin-left: 10px;
+    text-shadow: 0.5rem 1rem 2rem #675092;
+    cursor: pointer;
+}
+
+.hashCash:hover, .login:hover {
+    -webkit-transform: skewX(20deg) skewY(2deg) scale(1.1);
+    transform: skewX(20deg) skewY(2deg) scale(1.1);
+    text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.3);
+}
+
+.panel {
+    width: 10vh;
+    height: 100vh;
+    padding: 0;
+    margin-left: 50rem;
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(237, 31, 109, 1)), to(rgba(103, 80, 146, 1)));
+    background-image: linear-gradient(to right bottom, rgba(237, 31, 109, 1), rgba(103, 80, 146, 1));
+    position: absolute;
+    background-size: cover;
+    background-position: top;
+    /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);*/
+    /*clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);*/
+}
